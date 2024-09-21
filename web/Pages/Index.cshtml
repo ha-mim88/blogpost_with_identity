@@ -9,3 +9,21 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <h1>ID & Pass: TestUser1@123.com</h1>
 </div>
+
+    <h1>Guide for Connection String</h1>
+<pre>
+    appsettings.Development.json
+
+    {
+      "ConnectionStrings": {
+        "DefaultConnection": "Server=XXXXX;Database=blogpost_with_identity;User ID=sa;Password=XXXXX;Trusted_Connection=True;MultipleActiveResultSets=true;Encrypt=false"
+      },
+      "DetailedErrors": true,
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          "Microsoft.AspNetCore": "Warning"
+        }
+      }
+    }
+</pre>
